@@ -16,3 +16,4 @@ output:
 2. printf is not declared
 3. int main() is not defined
 4. variables are not defined properly
+5. no headerfiles
