@@ -1,0 +1,25 @@
+//Program of Armstrong Number in C Using For Loop & While Loop
+
+#include<stdio.h>
+int main()
+{
+	int arm=0,n,rem,temp;
+	printf("enter the number = ");
+	scanf("%d",&n);
+	temp = n;
+	
+	while(n>0)
+	{
+		rem = n%10;
+		arm = arm + rem*rem*rem;
+		n = n/10;
+	}
+	if(arm == temp )
+	{
+		printf("the number is armstrong");
+	}
+	else
+	{
+		printf("the number is not armstrong");
+	}
+}
