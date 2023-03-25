@@ -1,0 +1,15 @@
+/*C Program For Converting Temperature Celsius Into Fahrenheit*/
+
+#include<stdio.h>
+
+int main()
+{
+	float c,f;
+	printf("enter the value of celcius = ");
+	scanf("%f",&c);
+	
+	f = c/5*9 + 32;
+	
+	printf("the fahrenheit value is %f",f);
+	
+}
